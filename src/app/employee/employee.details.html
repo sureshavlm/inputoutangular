@@ -1,0 +1,12 @@
+
+
+<h2>Employee Details</h2>
+
+<p>Name: <span style="color: red">{{ employee.name }}</span></p>
+<p>Age: {{ employee.age }} </p>
+<p>Gender: {{ employee.gender }}</p>
+<p>Skill: {{ employee.skill }}</p>
+<p>Salary: {{ employee.salary }}</p> <span style="color: red">Update: <input type="text" [(ngModel)]="newsalary"> </span><button (click)="update()">Update</button>
+<p>Projects: {{ employee.project }}</p>
+<p>Fulltime Employee: {{ employee.fulltime }}</p>
+
